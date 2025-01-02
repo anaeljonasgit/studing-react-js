@@ -1,5 +1,11 @@
+import HelloWorld from "./components/HelloWorld";
+
 function App() {
-  return <h1>Hello world</h1>;
+  return (
+    <>
+      <HelloWorld />
+    </>
+  );
 }
 
 export default App;
